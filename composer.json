@@ -1,0 +1,30 @@
+{
+  "name": "emt/base-power",
+  "description": "emt 通用组件及公共方法，适用php7.3以上",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "michael23",
+      "email": "244360439@qq.com"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "./src/Functions.php"
+    ],
+    "psr-4": {
+      "MicroTool\\BasePower\\": "src/"
+    }
+  },
+  "keywords": [
+    "microserver",
+    "class",
+    "function"
+  ],
+  "require": {
+    "php": ">=7.0",
+    "hyperf/utils": "^2.2",
+    "guzzlehttp/guzzle": "^7.4"
+  }
+}
