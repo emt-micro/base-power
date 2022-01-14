@@ -23,7 +23,7 @@
     "function"
   ],
   "require": {
-    "php": ">=7.0",
+    "php": ">=7.3",
     "hyperf/utils": "^2.2",
     "guzzlehttp/guzzle": "^7.4"
   }
